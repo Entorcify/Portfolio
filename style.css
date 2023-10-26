@@ -4,7 +4,7 @@
   /*======Main theme colors======*/
   --first-color: #0F152A;
   --second-color: #BCA164;
-  --third-color: #404654;
+  --third-color: #404654;;
 
   /*======Hover colors======*/
   --hover-color: #614fd0;
@@ -1531,6 +1531,7 @@ footer a {
   }
 
   .footer-container .info h3 {
+    display: none;
     align-items: center;
     font-size: 1.1em;
     font-weight: 500;
@@ -1538,25 +1539,30 @@ footer a {
   }
   
   .footer-container .info h3 strong {
+    display: none;
     border-bottom: 2px solid white;
   }
   
   .footer-container .info
   .footer-container .info h3 {
+    display: none;
     display: inline-block;
     align-items: center;
     flex-direction: column;
   }
 
 .footer-container .info ul {
+  display: none;
   display: inline-block;
 }
 
 .footer-container .info ul li {
+  display: none;
   display: inline-block;
 }
 
 .footer-container .info a {
+  display: none;
   margin: 20px;
 }
 
