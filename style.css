@@ -195,6 +195,12 @@ header.sticky{
   padding-bottom: 2px;
 }
 
+.footer-container .footer-img img {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+
 header.sticky .nav-bar {
   height: calc(2.5rem + 1rem);
 }
