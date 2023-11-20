@@ -1544,7 +1544,7 @@ footer a {
   }
 
   .footer-container .info h3 {
-    display: none;
+    display: grid;
     align-items: center;
     font-size: 1.1em;
     font-weight: 500;
@@ -1552,31 +1552,23 @@ footer a {
   }
   
   .footer-container .info h3 strong {
-    display: none;
+    display: grid;
     border-bottom: 2px solid white;
   }
-  
+
   .footer-container .info
   .footer-container .info h3 {
-    display: none;
-    display: inline-block;
+    display: grid;
     align-items: center;
     flex-direction: column;
   }
 
 .footer-container .info ul {
-  display: none;
-  display: inline-block;
-}
-
-.footer-container .info ul li {
-  display: none;
-  display: inline-block;
-}
-
-.footer-container .info a {
-  display: none;
-  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25px, 4fr));
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 50px;
 }
 
   .footer-copyright p {
