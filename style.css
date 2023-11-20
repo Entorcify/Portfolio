@@ -1362,6 +1362,13 @@ footer a {
     margin: 5px 0;
   }
 
+  .footer-container .footer-img img {
+    display: none;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+
   .footer-container .hr {
     width: 100%;
     height: 2px;
@@ -1574,5 +1581,12 @@ footer a {
 
   .footer-copyright p {
     text-align: center;
+  }
+
+  .footer-container .footer-img img {
+    display: none;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 2px;
   }
   }
