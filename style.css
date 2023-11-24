@@ -1403,8 +1403,8 @@ footer a {
   }
 
   .home-container .home-img img {
-    width: 50%;
-    transform: translate(80px, -230px);
+    width: 75%;
+    transform: translate(200px, -200px);
   }
 
   .home .home-container .info {
