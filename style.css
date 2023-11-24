@@ -1532,15 +1532,24 @@ footer a {
   /*=======Our clients=======*/
   .swiper-slide .client-img {
     flex-direction: column;
-    max-width: 80%;
+    max-width: 50%;
     border-radius: 200%;
   }
 
-  .client-details p {
-    text-align: center;
+  .swiper-slide .client-details p, .swiper-slide .client-details h3 {
+    text-align: justify;
     font-size: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .client-details span {
+    font-size: 15px;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: var(--second-color);
+    font-size: 1.5em;
   }
 
   .footer-container .info h3 {
