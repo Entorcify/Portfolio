@@ -3,7 +3,7 @@
 :root{
   /*======Main theme colors======*/
   --first-color: #0F152A;
-  --second-color: #BCA164;
+  --second-color: #6b5db5;
   --third-color: #404654;;
 
   /*======Hover colors======*/
@@ -584,6 +584,10 @@ header.sticky .nav-bar {
   width: 90%;
 }
 
+.bar .wordpress:before {
+  width: 100%;
+}
+
 
 .experience-card {
   background: var(--card-bg-color);
@@ -640,6 +644,7 @@ header.sticky .nav-bar {
   max-width: 100%;
   margin: 0 auto;
   gap: 20px;
+  padding-left: 150px;
 }
 
 .service-card {
@@ -1403,8 +1408,10 @@ footer a {
   }
 
   .home-container .home-img img {
-    width: 75%;
+    padding-top: 30px;
+    width: 50%;
     transform: translate(50px, -200px);
+    visibility: hidden;
   }
 
   .home .home-container .info {
@@ -1442,6 +1449,10 @@ footer a {
     margin: 0 auto;
   }
 
+  .service-list, .service-container {
+    display: inline;
+  }
+
   /*=======Get-in-touch section=======*/
   .get-in-touch .contact-card {
     display: grid;
@@ -1472,7 +1483,7 @@ footer a {
   }
 
   .about-info .description h3 span {
-    font-size: 1em;
+    font-size: 3em;
     font-weight: 600;
     margin-bottom: 10px;
   }
@@ -1577,7 +1588,17 @@ footer a {
   grid-template-columns: repeat(auto-fill, minmax(25px, 4fr));
   max-width: 100%;
   margin: 0 auto;
-  gap: 50px;
+  gap: 35px;
+  font-size: 10px;
+}
+
+.footer-container .about h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  background: linear-gradient(to top, transparent 0%, #fff 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: .8;
 }
 
   .footer-copyright p {
