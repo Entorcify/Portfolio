@@ -25,7 +25,7 @@
   --box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
 
   /*======Font size======*/
-  --small-font-size: 0.9em;
+  --small-font-size: 0.8em;
   --normal-font-size: 1em;
 
   /*======Scroll bar colors======*/
@@ -1483,7 +1483,7 @@ footer a {
   }
 
   .about-info .description h3 span {
-    font-size: 3em;
+    font-size: 1em;
     font-weight: 600;
     margin-bottom: 10px;
   }
@@ -1522,7 +1522,7 @@ footer a {
   }
   
   .about-info .professional-list .list-item h3 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 700;
   }
   
